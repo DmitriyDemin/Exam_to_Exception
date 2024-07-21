@@ -26,10 +26,6 @@ public class User {
         return birthday;
     }
 
-    public Long getPhoneNumber() {
-        return phoneNumber;
-    }
-
     public Character getGender() {
         return gender;
     }

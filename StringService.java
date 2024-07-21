@@ -43,7 +43,6 @@ public class StringService {
                 System.out.println("Ошибка при вводе даты рождения!");
             }
         }
-//        return birthdaySubString;
     }
 
     public void checkGenderValue(Character gender){
@@ -56,11 +55,5 @@ public class StringService {
             System.out.println("Ошибка при вводе пола! Введите пол символом латиницы f или m.");
         }
     }
-
-    public String[] getArraySubStrings() {
-        return arraySubStrings;
-    }
-
-
 
 }
